@@ -64,3 +64,45 @@ body{
     font-size: 17px;
     
 }
+
+
+
+
+
+
+.footer{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 1000;
+    width: 100%;
+    padding: 0px 60px 60px 60px;
+    bottom: 0;
+    background-color: var(--pale-grey);
+    font-size: 14px;
+    color: var(--grey);
+}
+.footer img{
+    padding-top: 30px;
+    width: 60px;
+    height: auto;
+}
+.footer p {
+    width: 250px;
+    padding-top: 10px;
+    
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: column;
+    gap: 100px;
+    padding-top: 30px; 
+}
+.footer a{
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 14px;   
+    align-items: flex-end;
+}

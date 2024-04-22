@@ -5,3 +5,4 @@
 -Verify connections between files.
 -Create header in homepage with (img, nav, button).
 -CSS´s header.
+-Footer:
