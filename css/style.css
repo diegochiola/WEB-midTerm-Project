@@ -340,21 +340,8 @@ body {
   .contenedor img {
     max-width: 100%;  
   }
-/*
-#services2{
-    width: 80px;
-    height: 80px;
-    margin: 30px;
-    padding: 10px;
-    background-color: var(--ice);
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-*/
-.contact{
 
+.contact{
     background-color: var(--yellow);
     display: flex;
     justify-content: space-evenly;
@@ -364,7 +351,56 @@ body {
     margin: 25px 25px;
     flex-direction: column;
 }
-
+.contact h3{
+   font-size: 40px;
+   font-style: bold;
+    color: var(--black);
+    padding-top: 60px;
+    
+}
+.contact p{
+    font-size: 20px;
+    color: var(--black);
+    
+ }
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+    
+}
+ .contact input[type="email"] {
+    width: 400px; 
+    height: 80px; 
+    padding: 10px;
+    padding-left: 70px;
+    background-color: var(--pale-grey);
+    font-size: 17px;
+    color: var(--grey);
+    border: none;
+    margin-right: 20px; 
+    
+}
+.email-icon{
+   position: relative;
+    left: 30px;
+    top: -55px;
+    width: 30px; 
+    height: auto;
+    display: block;
+}
+.contact button {
+    background-color: var(--blue);
+    color: var(--ice);
+    width: 190px;
+    height: 80px;
+    padding: 15px 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
 .footer {
   position: relative;
   max-width: 100%;
