@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   padding-top: 20px;
 }
 #description {
@@ -103,8 +103,8 @@ body {
   font-size: 20px;
   color: var(--black);
 }
-.image-background {
-  background-image: url(../resources/images/projects-section/6.jpg);
+.image {
+  background-image: url();
   background-position: center;
   background-repeat: no-repeat;
 
@@ -112,7 +112,7 @@ body {
   height: 444px;
   margin-top: 60px;
 }
-.paragraph {
+#content {
   font-size: 20px;
   font-weight: 100;
   color: var(--grey);
