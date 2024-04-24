@@ -66,6 +66,9 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+#btn-contact-us:hover {
+  color: var(--yellow);
+}
 
 .hero-section {
   display: flex;
@@ -187,8 +190,6 @@ body {
   box-shadow: 5px 5px 60px rgb(166, 166, 168);
   align-items: flex-start;
   justify-content: space-between;
-  
-  
 }
 .card-1 img {
   width: 340px;
@@ -296,110 +297,109 @@ body {
 }
 
 .card-2 {
-    display: flex;
-    flex-direction: column;
-    width: 340px;
-    height: 380px;
-    background-color: white;
-    box-shadow: 5px 5px 60px rgb(166, 166, 168);
-    align-items: flex-start;
-    justify-content: space-between;
-    padding-left: 20px;
-    
-  }
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 380px;
+  background-color: white;
+  box-shadow: 5px 5px 60px rgb(166, 166, 168);
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-left: 20px;
+}
 
-  .card-2 p {
-    padding: 0px 20px 20px 20px;
-    font-size: 24px;
-    color: var(--black);
-  }
-  #card-text2 {
-    font-size: 17px;
-    color: var(--grey);
-    margin-bottom: 25px;
-    width: 80%;
-  }
-  .card-2 a {
-    text-decoration: none;
-    color: var(--blue);
-    font-size: 17px;
-    padding-left: 20px;
-    padding-bottom: 30px;
-  }
-  
-  .contenedor{
-    width: 80px; 
-    height: 80px; 
-    border-radius: 50%; 
-    background-color: var(--ice); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px
-  }
-  .contenedor img {
-    max-width: 100%;  
-  }
+.card-2 p {
+  padding: 0px 20px 20px 20px;
+  font-size: 24px;
+  color: var(--black);
+}
+#card-text2 {
+  font-size: 17px;
+  color: var(--grey);
+  margin-bottom: 25px;
+  width: 80%;
+}
+.card-2 a {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 17px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
 
-.contact{
-    background-color: var(--yellow);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 500px;
-    max-width: 100vw;
-    margin: 25px 25px;
-    flex-direction: column;
+.contenedor {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: var(--ice);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
 }
-.contact h3{
-   font-size: 40px;
-   font-style: bold;
-    color: var(--black);
-    padding-top: 60px;
-    
+.contenedor img {
+  max-width: 100%;
 }
-.contact p{
-    font-size: 20px;
-    color: var(--black);
-    
- }
-.form-group{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-    
+
+.contact {
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 500px;
+  max-width: 100vw;
+  margin: 25px 25px;
+  flex-direction: column;
 }
- .contact input[type="email"] {
-    width: 400px; 
-    height: 80px; 
-    padding: 10px;
-    padding-left: 70px;
-    background-color: var(--pale-grey);
-    font-size: 17px;
-    color: var(--grey);
-    border: none;
-    margin-right: 20px; 
-    
+.contact h3 {
+  font-size: 40px;
+  font-style: bold;
+  color: var(--black);
+  padding-top: 60px;
 }
-.email-icon{
-   position: relative;
-    left: 30px;
-    top: -55px;
-    width: 30px; 
-    height: auto;
-    display: block;
+.contact p {
+  font-size: 20px;
+  color: var(--black);
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.contact input[type="email"] {
+  width: 400px;
+  height: 80px;
+  padding: 10px;
+  padding-left: 70px;
+  background-color: var(--pale-grey);
+  font-size: 17px;
+  color: var(--grey);
+  border: none;
+  margin-right: 20px;
+}
+.email-icon {
+  position: relative;
+  left: 30px;
+  top: -55px;
+  width: 30px;
+  height: auto;
+  display: block;
 }
 .contact button {
-    background-color: var(--blue);
-    color: var(--ice);
-    width: 190px;
-    height: 80px;
-    padding: 15px 25px;
-    border: none;
-    text-decoration: none;
-    font-size: 17px;
-    margin-bottom: 30px;
+  background-color: var(--blue);
+  color: var(--ice);
+  width: 190px;
+  height: 80px;
+  padding: 15px 25px;
+  border: none;
+  text-decoration: none;
+  font-size: 17px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.contact button:hover {
+  color: var(--yellow);
 }
 .footer {
   position: relative;

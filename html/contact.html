@@ -21,42 +21,66 @@
     <main>
       <section class="contact-us">
         <h1>Contact Us</h1>
-       
-        <form id="form-contact">
-            <div class="form-content">
-                <label for="name">Full Name*</label>
-                <input type="text"  class="input-box" id="name" name="name" placeholder="Enter your full name" required />
-              </div>
-              
-              <div class="email-phone">
-                <div class="form-content email">
-                    <label for="email">Email</label> 
-                    <input type="email" class="input-box" id="email" name="email" placeholder="Enter your email" required/>
-                  </div>
-    
-                  <div class="form-content phone">
-                    <label for="phone">Phone</label>
-                    <input type="text"  class="input-box" id="phone" name="phone" placeholder="Enter your phone number" required />
-                  </div>
 
-              </div>
-           
-    
-              <div class="form-content">
-                <label for="message">Message</label>
-                <textarea class="message-box" id="message" name="message" placeholder="Write your message here..." required></textarea>
-              </div>
-    
-              <div class="form-content">
-              <button type="submit" class="btn-sumbit" >Submit</button>
-              </div>
+        <form id="form-contact">
+          <div id="form-content" class="form-content">
+            <label for="name">Full Name*</label>
+            <input
+              type="text"
+              class="input-box"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+            <div class="error" id="name-error"></div>
+          </div>
+
+          <div class="email-phone">
+            <div class="form-content email">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                class="input-box"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+              />
+              <div class="error" id="email-error"></div>
+            </div>
+
+            <div class="form-content phone">
+              <label for="phone">Phone</label>
+              <input
+                type="text"
+                class="input-box"
+                id="phone"
+                name="phone"
+                placeholder="Enter your phone number"
+                required
+              />
+              <div class="error" id="phone-error"></div>
+            </div>
+          </div>
+
+          <div class="form-content">
+            <label for="message">Message</label>
+            <textarea
+              class="message-box"
+              id="message"
+              name="message"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+            <div class="error" id="message-error"></div>
+          </div>
+
+          <div class="form-content">
+            <button type="submit" class="btn-submit">Submit</button>
+          </div>
         </form>
       </section>
-
-
-
-
-
     </main>
 
     <footer class="footer">
