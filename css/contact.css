@@ -83,10 +83,13 @@ body {
   color: var(--black);
 }
 
+
+/*form*/
+
 .form-content {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   padding-top: 30px;
 }
 .form-content label {
@@ -142,6 +145,17 @@ body {
 .btn-submit:hover {
   color: var(--yellow);
 }
+
+
+/*error*/
+.error-message {
+  display: none;
+  color: red; 
+  font-size: 13px; 
+  
+}
+
+/*footer*/
 .footer {
   position: relative;
   max-width: 100%;
