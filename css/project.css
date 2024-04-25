@@ -9,7 +9,6 @@
   --ice: #ecf7ff;
   --yellow: #ffc600;
 }
-
 *,
 html,
 body {
@@ -36,8 +35,6 @@ header {
   width: 60px;
   height: auto;
 }
-
-/* Nav Bar */
 .nav-bar {
   display: flex;
   align-items: center;
@@ -45,7 +42,6 @@ header {
   gap: 60px;
   width: 100%;
 }
-
 .nav-list {
   display: flex;
   gap: 60px;
@@ -72,7 +68,6 @@ header {
 #btn-contact-us:hover {
   color: var(--yellow);
 }
-
 .open-menu,
 .close-menu {
   display: none;
@@ -81,7 +76,6 @@ header {
 .project a {
   color: var(--blue);
 }
-
 .simplify {
   max-width: 100%;
   padding: 60px 60px 60px 60px;
@@ -102,7 +96,6 @@ header {
   font-size: 24px;
   color: var(--grey);
 }
-
 .date {
   display: flex;
   flex-direction: row;
@@ -119,7 +112,6 @@ header {
   font-size: 20px;
   color: var(--grey);
 }
-
 .image {
   background-image: url();
   background-position: center;
@@ -131,11 +123,10 @@ header {
 }
 #content {
   font-size: 20px;
-  font-weight: 100;
+  text-align: justify;
   color: var(--grey);
   padding-top: 60px;
 }
-
 .other-ptojects {
   display: flex;
   flex-direction: column;
@@ -187,7 +178,6 @@ header {
   padding-left: 20px;
   padding-bottom: 30px;
 }
-
 .contact {
   background-color: var(--yellow);
   display: flex;
@@ -290,7 +280,6 @@ header {
     flex-direction: raw;
     justify-content: space-between;
   }
-
   .open-menu,
   .close-menu {
     display: block;
@@ -322,7 +311,6 @@ header {
     height: 220px;
     width: 120px;
   }
-
   .nav-bar.show {
     opacity: 2;
     visibility: visible;
@@ -340,11 +328,9 @@ header {
     color: var(--pale-grey);
     gap: 20px;
   }
-
   .nav-list li a:hover {
     color: var(--yellow);
   }
-
   #btn-contact-us {
     color: var(--pale-grey);
     background-color: transparent;
@@ -362,104 +348,47 @@ header {
   .bi-x-circle-fill {
     color: var(--pale-grey);
   }
-
-  .hero-section {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    max-width: 100%;
-    height: auto;
+  .simplify {
+    width: 100%;
+    padding: 0px 20px 20px 20px;
     margin-top: 120px;
-    padding: 15px;
   }
-  .div-left {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-    margin-bottom: 20px;
-  }
-  .div-left h1 {
-    width: 80%;
+  .simplify h1 {
     font-size: 30px;
-    text-align: center;
   }
-  .div-left p {
+  .simplify-description {
     padding-top: 20px;
-    font-size: 13px;
-    text-align: center;
-    width: 80%;
   }
-  .btn-left {
-    padding-top: 20px;
-    width: 50%;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
+  #description {
+    font-size: 17px;
   }
-  .btn-getInTouch {
-    padding: 5px 15px;
+  #date-1 {
     font-size: 15px;
   }
-  .btn-seeOurWork {
-    padding: 5px 15px;
+  #date {
     font-size: 15px;
   }
-
-  .div-right {
-    display: block;
-    flex-direction: column;
+  .image {
     width: 100%;
+    height: 360px;
+    margin-top: 30px;
+  }
+  #content {
+    font-size: 15px;
     padding-top: 30px;
-
-    align-items: center;
   }
-  .div-right img {
-    max-width: 80%;
-    height: auto;
-  }
-
-  #card-1 {
-    width: 160px;
-    height: 160px;
-    position: absolute;
-    top: 5%;
-    right: 55%;
-  }
-  #card-2 {
-    width: 160px;
-    height: 160px;
-    top: 73%;
-    left: 55%;
-  }
-
-  .logos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+  .other-ptojects {
     max-width: 100%;
     padding: 20px;
     margin-top: 20px;
   }
-  .logos img {
-    width: 10%;
-  }
-
-  .recent-ptojects {
-    max-width: 100%;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  .recent-ptojects h2 {
+  .other-ptojects h2 {
     font-size: 30px;
     text-align: center;
-    color: var(--black);
-    padding-bottom: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
   }
-
   .card-project {
     display: flex;
     flex-direction: column;
@@ -468,7 +397,6 @@ header {
     max-width: 100%;
     padding-bottom: 30px;
   }
-
   .card-1 {
     display: flex;
     flex-direction: column;
@@ -478,116 +406,26 @@ header {
     justify-content: space-between;
     margin-bottom: 10%;
   }
-
   .card-1 img {
     width: 100%;
     height: auto;
   }
-
   .card-1 p {
     font-size: 23px;
     text-align: center;
   }
-
   #card-text1 {
     font-size: 17px;
     color: var(--grey);
     margin-bottom: 25px;
   }
-
   .card-1 a {
     font-size: 17px;
     padding-left: 0px;
   }
-
-  .testimonial {
-    max-width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: auto;
-    padding: 20px 20px;
-    margin: 10px;
-
-    flex-direction: column;
+  .card-1 a:hover {
+    color: var(--yellow);
   }
-
-  .testimonial h3 {
-    max-width: 65%;
-    color: var(--pale-grey);
-    font-size: 25px;
-    margin-top: 20px;
-    text-align: center;
-  }
-
-  .div-testimonial {
-    margin-top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 170px;
-  }
-  #text-testimonial {
-    font-size: 17px;
-    padding-top: 20px;
-    width: 70%;
-    text-align: center;
-  }
-
-  #text-testimonial1 {
-    color: var(--pale-blue);
-    font-size: 17px;
-  }
-
-  #text-testimonial2 {
-    padding-top: 10px;
-    color: var(--pale-grey);
-    font-size: 13px;
-  }
-
-  .testimonial-emojis img {
-    display: none;
-  }
-
-  .card-2 {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: auto;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 0px;
-    margin-bottom: 10%;
-  }
-  .recent-ptojects h2 {
-    font-size: 30px;
-    text-align: center;
-    padding-bottom: 20px;
-    margin-top: 30px;
-  }
-
-  .card-2 p {
-    padding: 0px 20px 20px 20px;
-    font-size: 23px;
-    color: var(--black);
-    text-align: center;
-  }
-
-  #card-text2 {
-    font-size: 17px;
-    color: var(--grey);
-    margin-bottom: 25px;
-    width: 80%;
-  }
-
-  .card-2 a {
-    text-decoration: none;
-    color: var(--blue);
-    font-size: 17px;
-    padding-left: 0px;
-    padding-bottom: 30px;
-  }
-
   .contact {
     height: 300px;
     max-width: 100vw;
@@ -595,16 +433,13 @@ header {
     margin: 10px;
     flex-direction: column;
   }
-
   .contact h3 {
     font-size: 25px;
     padding-top: 40px;
   }
-
   .contact p {
     font-size: 17px;
   }
-
   .form-group {
     display: flex;
     flex-direction: column;
@@ -612,7 +447,6 @@ header {
     align-items: center;
     margin-bottom: 0px;
   }
-
   .contact input[type="email"] {
     width: 200px;
     height: auto;
@@ -622,12 +456,11 @@ header {
     text-align: center;
     margin-bottom: 20px;
   }
-
   .email-icon {
-    width: 0px;
-    height: 0px;
+    width: 20px;
+    height: 20px;
+    left: 10px;
   }
-
   .contact button {
     width: 200px;
     height: 40px;
@@ -638,11 +471,9 @@ header {
     margin-bottom: 30px;
     cursor: pointer;
   }
-
   .contact button:hover {
     color: var(--yellow);
   }
-
   .footer {
     position: relative;
     max-width: 100%;
