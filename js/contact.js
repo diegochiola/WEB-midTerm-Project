@@ -10,16 +10,19 @@ window.addEventListener("load", function () {
   const phoneError = document.getElementById("phone-error");
   const messageError = document.getElementById("message-error");
 
-  // Validación de campos
   function validateFields() {
     let isValid = true;
-    const nameValue = name.value;
-    const emailValue = email.value;
-    const phoneValue = phone.value;
+    const nameValue = name.value.trim().toLowerCase();
+    const emailValue = email.value.trim().toLowerCase();
+    const phoneValue = phone.value.trim();
     const messageValue = message.value;
 
     if (nameValue === "") {
       validationFails(nameError, "Please fill the name field");
+      isValid = false;
+    } else if (nameValue === "ironhack") {
+      validationFails(nameError, "You cannot be Ironhack, because I am Ironhack.");
+      alert("You cannot be Ironhack, because I am Ironhack.");
       isValid = false;
     } else {
       validationSuccess(nameError);
@@ -35,8 +38,12 @@ window.addEventListener("load", function () {
       validationSuccess(emailError);
     }
 
+
     if (phoneValue === "") {
       validationFails(phoneError, "Please fill the phone number field");
+      isValid = false;
+    } else if (!isValidPhoneNumber(phoneValue)) {
+      validationFails(phoneError, "Please enter a valid phone number with at least 7 digits");
       isValid = false;
     } else {
       validationSuccess(phoneError);
@@ -51,7 +58,10 @@ window.addEventListener("load", function () {
 
     return isValid;
   }
-
+  function isValidPhoneNumber(phone) {
+    const regex = /^\d{7,}$/;
+    return regex.test(phone);
+  }
   function isValidEmail(email) {
     const regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     return regex.test(email);
@@ -68,7 +78,6 @@ window.addEventListener("load", function () {
     errorMessage.style.display = "none";
   }
 
-  // Adjuntar evento submit fuera de la función validationFails
   formContact.addEventListener("submit", function (e) {
     e.preventDefault();
     const validField = validateFields();
@@ -98,4 +107,17 @@ window.addEventListener("load", function () {
       );
     }
   });
+});
+
+const nav = document.querySelector(".nav-bar");
+const openMenu = document.querySelector("#open-menu");
+const closeMenu = document.querySelector("#close-menu");
+console.log(openMenu);
+openMenu.addEventListener("click", () => {
+  nav.classList.add("show");
+});
+
+closeMenu.addEventListener("click", () => {
+  nav.classList.toggle("show");
+  console.log("hola");
 });

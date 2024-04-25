@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homepage</title>
-    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header class="header">
-      
-      <div class="burger-menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-
-      <nav class="nav-bar">
-        <img src="../resources/images/logos/circle.svg" alt="Circle logo" />
-        <ul>
-          <li class="home"><a href="homepage.html">Home</a></li>
-          <li><a href="project.html">Projects</a></li>
-          <li><a href="services.html">Services</a></li>
+    <header>
+      <img
+        src="../resources/images/logos/circle.svg"
+        alt="Circle logo"
+        class="logo"
+      />
+      <button class="open-menu" id="open-menu">
+        <i class="bi bi-list"></i>
+      </button>
+      <nav class="nav-bar" id="nav-bar">
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x-circle-fill"></i>
+        </button>
+        <ul class="nav-list">
+          <li class="home"><a href="./index.html">Home</a></li>
+          <li class="project"><a href="/html/project.html">Projects</a></li>
+          <li class="service"><a href="#">Services</a></li>
         </ul>
-        <a href="contact.html" id="btn-contact-us">Contact Us</a>
+        <a href="./html/contact.html" id="btn-contact-us">Contact Us</a>
       </nav>
     </header>
     <main>
@@ -56,7 +63,6 @@
           />
         </div>
       </section>
-
       <section class="logos">
         <img
           src="../resources/images/logos/airbnb-logo.svg"
@@ -76,7 +82,6 @@
           alt="logo Amazon"
         />
       </section>
-
       <section class="recent-ptojects">
         <h2>Recent Projects</h2>
         <div class="card-project">
@@ -89,7 +94,6 @@
             <p id="card-text1">UI Design & App Development</p>
             <a href="#">Learn more</a>
           </div>
-
           <div class="card-1">
             <img
               src="../resources/images/projects-section/2.jpg"
@@ -111,7 +115,6 @@
           </div>
         </div>
       </section>
-
       <section class="testimonial">
         <h3>Hear What Our Clients Have to Say</h3>
         <p id="text-testimonial">
@@ -153,7 +156,6 @@
           />
         </div>
       </section>
-
       <section class="recent-ptojects">
         <h2>Our Services</h2>
         <div class="card-project">
@@ -171,7 +173,6 @@
             </p>
             <a href="#">Learn more</a>
           </div>
-
           <div class="card-2 services">
             <div class="contenedor">
               <img
@@ -186,7 +187,6 @@
             </p>
             <a href="#">Learn more</a>
           </div>
-
           <div class="card-2 services">
             <div class="contenedor">
               <img
@@ -203,24 +203,25 @@
           </div>
         </div>
       </section>
-
       <section class="contact">
         <h3>Do you have any questions?</h3>
         <p>Let us help you!</p>
         <form class="form-group" id="contact-form">
-          <div >
+          <div>
             <label for="email"></label>
-            <input type="email" name="email" placeholder="Enter your email">
-            <img src="../resources/images/newsletter/icon/mail.svg" alt="Email Icon" class="email-icon">
-        </div>
+            <input type="email" name="email" placeholder="Enter your email" />
+            <img
+              src="../resources/images/newsletter/icon/mail.svg"
+              alt="Email Icon"
+              class="email-icon"
+            />
+          </div>
           <div>
             <button type="submit" class="btn-subscribe">Subscribe</button>
-            
           </div>
         </form>
       </section>
     </main>
-
     <footer class="footer">
       <div>
         <img src="../resources/images/logos/circle.svg" alt="Circle logo" />
@@ -239,7 +240,6 @@
         </ul>
       </div>
     </footer>
-
-    <script href="../js/homepage.js"></script>
+    <script src="./js/homepage.js"></script>
   </body>
 </html>
