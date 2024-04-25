@@ -1,16 +1,14 @@
-
 async function getJsonToHtml() {
-    try {
-      const response = await fetch("../data/data.json");
-      if (!response.ok) {
-        throw Error("Error while fetching data");
-      }
-  
-      const projects = await response.json();
-      const project = projects[3];
-  
-      const simplifySection = document.querySelector(".simplify");
-      simplifySection.innerHTML = `
+  try {
+    const response = await fetch("../data/data.json");
+    if (!response.ok) {
+      throw Error("Error while fetching data");
+    }
+
+    const projects = await response.json();
+    const project = projects[3];
+    const simplifySection = document.querySelector(".simplify");
+    simplifySection.innerHTML = `
         <h1 id="name">${project.name}</h1>
         <div class="simplify-description">
           <p id="description">${project.description}</p>
@@ -24,10 +22,10 @@ async function getJsonToHtml() {
         </div>
         <p id="content">${project.content}</p>
       `;
-    } catch (error) {
-      console.error("Error: ", error);
-    }
+  } catch (error) {
+    console.error("Error: ", error);
   }
+}
 
 async function getJsonToCards() {
   try {
@@ -65,10 +63,10 @@ const openMenu = document.querySelector("#open-menu");
 const closeMenu = document.querySelector("#close-menu");
 console.log(openMenu);
 openMenu.addEventListener("click", () => {
-    nav.classList.add("show");
+  nav.classList.add("show");
 });
 
 closeMenu.addEventListener("click", () => {
-    nav.classList.toggle("show");
-    console.log("hola");
+  nav.classList.toggle("show");
+  console.log("hola");
 });

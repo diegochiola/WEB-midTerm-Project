@@ -68,7 +68,12 @@ header {
 #btn-contact-us:hover {
   color: var(--yellow);
 }
-
+.project:hover{
+  color: var(--yellow);
+}
+.service:hover{
+  color: var(--yellow);
+}
 .open-menu,
 .close-menu {
   display: none;
@@ -95,9 +100,10 @@ header {
 }
 .div-left p {
   padding-top: 30px;
+  text-align: justify;
   font-size: 17px;
   color: var(--grey);
-  width: 80vh;
+  width: 60vh;
 }
 .btn-left {
   padding-top: 30px;
