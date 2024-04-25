@@ -32,7 +32,6 @@ formContact.addEventListener("submit", function(event){
 
 
 
-/*
 window.addEventListener("load", function () {
     const formContact = document.querySelector("#form-contact");
     const name = document.getElementById("name");
@@ -84,7 +83,7 @@ window.addEventListener("load", function () {
       
         errorMessage.innerText = message;
         formContent.classList.add("fails");
-    } // Added closing parenthesis
+    } 
 
       function validationSuccess(input) {
         const formContent = input.closest('.form-content'); 
@@ -96,4 +95,4 @@ window.addEventListener("load", function () {
       validateFields();
     });
   });
-  */
+
