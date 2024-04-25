@@ -59,7 +59,7 @@ Finally, event listeners are set up to handle the opening and closing of a navig
 ------------
 
 
-####** 💪  Backlog:**
+####💪 **Backlog:**
 
 - Implementation of more specific data validations such as maximum character limit for the message field and changing the input color to red when validation fails.
 - Storing collected data in a database (such us MongoDB or MySQL) using PHP for efficient data management.
@@ -72,8 +72,8 @@ Finally, event listeners are set up to handle the opening and closing of a navig
 - Sending a confirmation email upon subscription, among other potential improvements.
 
 
-****
-#### 📩  CONTACT
+
+#### 📩  **CONTACT**
 Diego Chiola FULLSTACK WEB Developer 
 https://github.com/diegochiola
 
