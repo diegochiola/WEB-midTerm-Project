@@ -1,4 +1,4 @@
-### Circle Development Studio
+### **Circle Development Studio**
 
 ------------
 
@@ -10,7 +10,7 @@
 ------------
 
 
-#### 🛠️ ****Built With:**** 
+#### 🛠️ ####****Built With:**** 
 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -31,14 +31,14 @@
 ------------
 
 
-#### 📋 **Validation form: **
+#### 📋####**Validation form:**
 
 It listens for the page to load, then grabs form elements and error message elements. It defines functions to validate fields such as name, email, phone, and message. If any field fails validation, it displays an error message. If all fields pass validation, it prevents the form from submitting, displays a success message, and logs the form data. 
 
 
 ------------
 
-#### 💻📲 **Responsiveness:**
+#### 💻📲####**Responsiveness:**
 
 Ensures that the website adapts well to different screen sizes, particularly targeting screens with a maximum width of 600 pixels. For smaller screens (max-width: 600px), the header navigation menu switches to a collapsible menu icon ( 🍔 burger menu), which, when clicked, displays the navigation links vertically.
 
@@ -48,7 +48,7 @@ The footer section adapts with a stacked layout for its elements, ensuring they 
 
 
 ------------
-####  📁🖥 Fetching and Displaying Data from the Backend:
+#### 📁🖥####**Fetching and Displaying Data from the Backend:**
 
 To fetch data from the backend, the code utilizes the fetch API to make an asynchronous request to the specified JSON endpoint. 
 Upon receiving the response, it first checks for any errors. If the response is successful, it parses the JSON data using the json() method. 
@@ -59,7 +59,7 @@ Finally, event listeners are set up to handle the opening and closing of a navig
 ------------
 
 
-####💪 **Backlog:**
+#### 💪####**Backlog:**
 
 - Implementation of more specific data validations such as maximum character limit for the message field and changing the input color to red when validation fails.
 - Storing collected data in a database (such us MongoDB or MySQL) using PHP for efficient data management.

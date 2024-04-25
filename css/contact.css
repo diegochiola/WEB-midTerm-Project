@@ -69,9 +69,7 @@ header {
 .close-menu {
   display: none;
 }
-.project a {
-  color: var(--blue);
-}
+
 .contact-us {
   display: flex;
   flex-direction: column;
@@ -259,6 +257,10 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0px;
+  }
+  .contact-us h1 {
+    font-size: 30px;
+    color: var(--black);
   }
   .email-phone {
     display: flex;
