@@ -73,8 +73,17 @@ window.addEventListener("load", function () {
     e.preventDefault();
     const validField = validateFields();
     if (validField) {
+      alert(
+        "Thank you for your message " +
+          name.value +
+          "!\n" +
+          " We will call you back to this number: " +
+          phone.value +
+          ",\n" +
+          " as soon as possible."
+      );
       console.log(
-        "Thank you for your message! We will get back to you as soon as possible.\n" +
+        "Thank you for your message!\n" +
           "Name: " +
           name.value +
           "\n" +
