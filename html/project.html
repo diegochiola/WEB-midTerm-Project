@@ -3,63 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Homepage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="../css/project.css" />
   </head>
   <body>
-    <header class="header">
-      <nav class="nav-bar">
-        <img src="../resources/images/logos/circle.svg" alt="Circle logo" />
-        <ul>
+    <header>
+      <img
+        src="../resources/images/logos/circle.svg"
+        alt="Circle logo"
+        class="logo"
+      />
+      <button class="open-menu" id="open-menu">
+        <i class="bi bi-list"></i>
+      </button>
+
+      <nav class="nav-bar" id="nav-bar">
+        <button class="close-menu" id="close-menu">
+          <i class="bi bi-x-circle-fill"></i>
+        </button>
+        <ul class="nav-list">
           <li class="home"><a href="homepage.html">Home</a></li>
-          <li class="project"><a href="project.html">Projects</a></li>
+          <li><a href="project.html">Projects</a></li>
           <li><a href="services.html">Services</a></li>
         </ul>
         <a href="contact.html" id="btn-contact-us">Contact Us</a>
       </nav>
     </header>
     <main>
-        
-      <section class="simplify">
-        <!--
-        <h1 id="name"></h1>
-        <div class="simplify-description">
-          <p id="description"></p>
-          <div class="date">
-            <p id="date-1">Completed on</p>
-            <p id="date"></p>
-          </div>
-        </div>
-
-        <div class="image-paragraph">
-          <div class="image"></div>
-          <p id="content"></p>
-        </div>
-         -->
-      </section>
-
-
+      <section class="simplify"></section>
 
       <section class="other-ptojects">
         <h2>Other Projects</h2>
-        <div class="card-project">
-          
-          <!-- 
-          <div class="card-1">
-            <img
-              src=""
-              alt="image of project 1"
-            />
-            <p id="card-name"></p>
-            <p id="card-text"></p>
-            <a href="#">Learn more</a>
-          </div>
-          -->
-        </div>
+        <div class="card-project"></div>
       </section>
-
-
-
 
       <section class="contact">
         <h3>Do you have any questions?</h3>
