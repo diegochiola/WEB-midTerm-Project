@@ -35,7 +35,6 @@ header {
   width: 60px;
   height: auto;
 }
-/* Nav Bar */
 .nav-bar {
   display: flex;
   align-items: center;
@@ -54,9 +53,6 @@ header {
   color: var(--grey);
   text-decoration: none;
   font-size: 17px;
-}
-.home a {
-  color: var(--blue);
 }
 #btn-contact-us {
   color: var(--pale-grey);
@@ -80,11 +76,11 @@ header {
   display: flex;
   flex-direction: column;
   max-width: 100%;
-  padding: 0px 20px 20px 20px;
+  padding: 60px 60px 60px 60px;
   margin-top: 120px;
 }
 .contact-us h1 {
-  font-size: 30px;
+  font-size: 60px;
   color: var(--black);
 }
 .form-content {
